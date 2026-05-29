@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" fill="#111111"/>
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="central"
+    text-anchor="middle"
+    font-family="Arial Black, sans-serif"
+    font-weight="900"
+    font-size="26"
+    letter-spacing="-1"
+    fill="#FFFBF0"
+    text-transform="uppercase"
+  >HV</text>
+</svg>
