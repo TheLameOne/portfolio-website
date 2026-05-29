@@ -87,14 +87,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        {/* Bottom row */}
-        <div className="footer-bottom">
-          <span className="footer-copy">
-            © {new Date().getFullYear()} {person.name}. Built with Next.js &amp; Neo-Brutalism.
-          </span>
-          <span className="footer-location">📍 {person.location}</span>
-        </div>
       </div>
     </footer>
   );
