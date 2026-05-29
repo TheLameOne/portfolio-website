@@ -18,10 +18,10 @@ function useTypewriter(roles: readonly string[]) {
     const current = roles[roleIdx];
 
     if (phase === "type") {
-      if (charIdx.current <= current.length) {
+      if (charIdx.current < current.length) {
         const timer = setTimeout(() => {
-          setDisplay(current.slice(0, charIdx.current));
           charIdx.current++;
+          setDisplay(current.slice(0, charIdx.current));
         }, 60);
         return () => clearTimeout(timer);
       } else {

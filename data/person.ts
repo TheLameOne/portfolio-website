@@ -15,10 +15,9 @@ export const person = {
 
   roles: [
     "Flutter Developer",
-    "Full Stack Engineer",
-    "SaaS Architect",
-    "Backend Engineer",
-    "Mobile App Builder",
+    "Frontend Developer",
+    "Backend Developer",
+    "Full Stack Developer",
   ],
 
   stats: [
