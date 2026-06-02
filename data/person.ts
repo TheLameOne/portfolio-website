@@ -10,7 +10,7 @@ export const person = {
   phone: "+91-7451985966",
   github: "https://github.com/TheLameOne",
   linkedin: "https://www.linkedin.com/in/harsh463/",
-  resume: "/resumes/harsh-verma.pdf",
+  resume: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/resumes/harsh-verma.pdf`,
   availability: "Available for work",
 
   roles: [
